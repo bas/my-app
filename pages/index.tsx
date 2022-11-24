@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
-            <Image src={`${process.env.ASSET_PREFIX}/images/drive.jpg`} height={210} width={140} alt="Think"/>
+            <Image src={`${process.env.assetPrefix}/images/drive.jpg`} height={210} width={140} alt="Think"/>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>

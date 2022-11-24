@@ -29,7 +29,7 @@ export default function Home() {
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
-            <Image src="/images/accelerate.jpg" height={210} width={140} alt="Accelerate"/>
+            <Image src={`${process.env.assetPrefix}/images/accelerate.jpg`} height={210} width={140} alt="Accelerate"/>
           </a>
 
           <a
@@ -37,7 +37,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Examples &rarr;</h2>
-            <Image src="/images/lean.jpg" height={210} width={140} alt="Lean"/>
+            <Image src={`${process.env.assetPrefix}/images/lean.jpg`} height={210} width={140} alt="Lean"/>
           </a>
 
           <a
@@ -47,7 +47,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Deploy &rarr;</h2>
-            <Image src="/images/drive.jpg" height={210} width={140} alt="Drive"/>
+            <Image src={`${process.env.assetPrefix}/images/scrum.jpg`} height={210} width={140} alt="Drive"/>
           </a>
         </div>
       </main>

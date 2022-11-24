@@ -24,12 +24,12 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
-            <img src="/images/think.jpg" height={210} width={140} alt="Think"/>
+            <Image src={`${process.env.ASSET_PREFIX}/images/drive.jpg`} height={210} width={140} alt="Think"/>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
-            <img src="/images/accelerate.jpg" height={210} width={140} alt="Accelerate"/>
+            <Image src="/images/accelerate.jpg" height={210} width={140} alt="Accelerate"/>
           </a>
 
           <a
@@ -37,7 +37,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Examples &rarr;</h2>
-            <img src="/images/lean.jpg" height={210} width={140} alt="Lean"/>
+            <Image src="/images/lean.jpg" height={210} width={140} alt="Lean"/>
           </a>
 
           <a
@@ -47,7 +47,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Deploy &rarr;</h2>
-            <img src="/images/drive.jpg" height={210} width={140} alt="Drive"/>
+            <Image src="/images/drive.jpg" height={210} width={140} alt="Drive"/>
           </a>
         </div>
       </main>
